@@ -1,5 +1,31 @@
 # 타일 디자인 상세 요청서
 
+## 시안 미리보기
+
+### Normal
+<img src="./normal.png" alt="Normal tile" width="260" />
+
+### CrossBlast
+<img src="./CrossBlast.png" alt="CrossBlast tile" width="260" />
+
+### ShortCircuit
+<img src="./ShortCircuit.png" alt="ShortCircuit tile" width="260" />
+
+### Blackout
+<img src="./Blackout.png" alt="Blackout tile" width="260" />
+
+### Hidden / Igniter
+<img src="./Hidden-Igniter.png" alt="Hidden and Igniter tile" width="260" />
+
+### BlindCurtain
+<img src="./BlindCurtain.png" alt="BlindCurtain tile" width="260" />
+
+### FixedKnot
+<img src="./FixedKnot.png" alt="FixedKnot tile" width="260" />
+
+### TwinLink
+<img src="./TwinLink.png" alt="TwinLink tile" width="260" />
+
 ## 📌 타일 디자인 공통 필수 사항
 * **중앙 숫자 표시:** 기본적으로 모든 타일의 정중앙에는 텍스트(숫자)가 들어갈 공간이 있어야 합니다.
 * 게임 플레이 중 숫자가 계속 바뀌므로, 배경 이펙트나 아이콘이 화려하더라도 중앙의 숫자가 가장 또렷하게 보여야 합니다. (단, Blackout 등 일부 정보가 가려지는 타일은 숫자 대신 `?`나 숨김 아이콘이 들어갑니다.)
