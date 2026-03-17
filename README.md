@@ -13,50 +13,42 @@
 <img src="./normal.png" alt="Normal tile" width="260" />
 
 ### 2. CrossBlast (십자 폭발 타일)
-* 상하좌우 4방향으로 에너지를 방출해 주변 타일에 영향을 주는 '전기 허브' 느낌입니다.
-* 중앙에서 빛이 모이거나 십자(+) 방향으로 전류, 펄스가 뻗어나가는 형태가 보여야 합니다.
+* 인접한 상하좌우 4방향으로 타일의 Count를 -1 감소시키는 타일입니다.
 
 <img src="./CrossBlast.png" alt="CrossBlast tile" width="260" />
 
 ### 3. ShortCircuit (방향 제한 타일)
 * 정해진 방향으로만 이동할 수 있는 타일입니다.
-* 단순한 화살표 장식이 아니라, 기계적인 경고 표식이나 '전류가 강제로 흐르는 길'처럼 강한 방향성이 느껴져야 합니다.
 
 <img src="./ShortCircuit.png" alt="ShortCircuit tile" width="260" />
 
 ### 4. Blackout (정보 숨김 타일)
-* 숫자를 가리고 `?` 로 표시되는 타일입니다.
-* 디지털 오류, 글리치(노이즈), 암전 등 정보가 손상되어 불안정하고 위험한 느낌이 나야 합니다.
+* 숫자를 가리고 `가림` 로 표시되는 타일입니다.
 
 <img src="./Blackout.png" alt="Blackout tile" width="260" />
 
 ### 5. Hidden (숨겨진 타일)
 * 처음엔 비활성화되어 있다가 나중에 켜지는 타일입니다.
-* 전원이 꺼진 슬롯, 유령 타일처럼 아주 희미하고 잠들어 있는 느낌을 주면 됩니다.
 
 <img src="./Hidden-Igniter.png" alt="Hidden tile concept" width="260" />
 
 ### 6. Igniter (점화/스위치 타일)
 * 밟으면 'Hidden 타일'을 작동시키는 스위치입니다.
-* 눌렀을 때 전원이 켜질 것 같은 물리적/기계적 장치 느낌이 나야 하며, 오렌지/앰버 계열의 따뜻한 작동 컬러가 들어가도 좋습니다.
 
 <img src="./Hidden-Igniter.png" alt="Igniter tile concept" width="260" />
 
 ### 7. BlindCurtain (블라인드 타일)
-* 밟으면 보드 전체의 숫자를 가려버리는 룰의 시작점입니다.
-* 눈가리개, 셔터, 차단막 등 시야를 가린다는 느낌의 마스킹 아이콘 형태면 좋겠습니다.
+* 밟으면 보드 전체의 숫자를 `?`로 가려버립니다.
 
 <img src="./BlindCurtain.png" alt="BlindCurtain tile" width="260" />
 
 ### 8. FixedKnot (순서 잠금 타일)
 * 반드시 '특정 순서'에만 밟아야 하는 기계적 잠금장치 타일입니다.
-* 톱니바퀴(기어)나 자물쇠 같은 외형에 중심에 숫자가 들어가서 "정확한 타이밍"을 요구하는 느낌이 나야 합니다.
 
 <img src="./FixedKnot.png" alt="FixedKnot tile" width="260" />
 
 ### 9. TwinLink (동기화 짝궁 타일)
 * 서로 떨어져 있어도 하나의 쌍으로 연결된 타일입니다.
-* 같은 색상을 공유하며, 타일 테두리에 전기 흐름이나 번개 프레임 등이 있어 "둘이 시각적으로 세트"라는 느낌이 확실히 들어야 합니다.
 
 <img src="./TwinLink.png" alt="TwinLink tile" width="260" />
 
