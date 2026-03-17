@@ -59,3 +59,9 @@
 * 같은 색상을 공유하며, 타일 테두리에 전기 흐름이나 번개 프레임 등이 있어 "둘이 시각적으로 세트"라는 느낌이 확실히 들어야 합니다.
 
 <img src="./TwinLink.png" alt="TwinLink tile" width="260" />
+
+## 시연 영상
+
+<video src="./play2.mp4" controls width="360"></video>
+
+[영상 파일 열기](./play2.mp4)
